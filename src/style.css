@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+/* ------------------ Layout -------------------- */
+.container {
+    display: grid;
+    grid-template-rows: 75px auto;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 15% auto;
+}
+
+.top-nav {
+    background-color: cornflowerblue;
+}
+
+.side-nav {
+    background-color: gray;
+    padding: 10px;
+    min-height: 575px;
+}
+.main-content {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    margin: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------------------SideNav------------------ */
+
+#side-nav {
+    
+}
+
+#side-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#side-nav a:hover {
+    background-color:#f2f2f2 ;
+}
