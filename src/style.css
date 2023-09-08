@@ -35,6 +35,30 @@ footer {
     width: 100%;
 }
 
+.table {
+    border: solid 1px black;
+    width: 100%;
+}
+
+.table th {
+    border: solid 1px gray ;
+    background-color: gray;
+    color: white;
+}
+
+.table td {
+    border: solid 1px black ;
+}
+
+.new-vehicle {
+    background-color: red;
+    padding: 5px;
+    margin: 10px auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /* ------------------SideNav------------------ */
 
 #side-nav {
@@ -49,4 +73,30 @@ footer {
 
 #side-nav a:hover {
     background-color:#f2f2f2 ;
+}
+
+/* -------------- Form ------------------------- */
+.form-type-1 {
+    padding: 10px;
+}
+
+.form-type-1 label {
+    display: block;
+    padding: 5px;
+}
+
+.form-type-1 input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 95%;
+}
+
+.form-type-1 button {
+    padding: 5px;
+}
+
+/* ------------------- Grid --------------------- */
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
